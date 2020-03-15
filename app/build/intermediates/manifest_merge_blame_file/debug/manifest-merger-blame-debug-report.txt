@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.damirayupov.corierapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:6:5-68
+12-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:6:22-65
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+14-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:8:5-74
+14-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:8:22-71
+15
+16    <application
+16-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:10:5-26:19
+17        android:allowBackup="true"
+17-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.2.0] C:\Users\adami\.gradle\caches\transforms-2\files-2.1\f8a25a8e7a6c14f5ca703a491b755ba2\core-1.2.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:15:9-35
+24        android:theme="@style/AppTheme"
+24-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:17:9-40
+25        android:usesCleartextTraffic="true" >
+25-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:16:9-44
+26        <activity android:name="com.damirayupov.corierapp.ReportChatActivity" />
+26-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:18:9-65
+26-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:18:19-53
+27        <activity android:name="com.damirayupov.corierapp.MainActivity" >
+27-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:19:9-25:20
+27-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:19:19-47
+28            <intent-filter>
+28-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:20:13-24:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:21:17-69
+29-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:21:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:23:17-77
+31-->C:\Users\adami\Desktop\CorierApp\app\src\main\AndroidManifest.xml:23:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[com.squareup.picasso:picasso:2.71828] C:\Users\adami\.gradle\caches\transforms-2\files-2.1\4bc378476bfec07f9da5500e4fd031d4\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+36            android:name="com.squareup.picasso.PicassoProvider"
+36-->[com.squareup.picasso:picasso:2.71828] C:\Users\adami\.gradle\caches\transforms-2\files-2.1\4bc378476bfec07f9da5500e4fd031d4\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+37            android:authorities="com.damirayupov.corierapp.com.squareup.picasso"
+37-->[com.squareup.picasso:picasso:2.71828] C:\Users\adami\.gradle\caches\transforms-2\files-2.1\4bc378476bfec07f9da5500e4fd031d4\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+38            android:exported="false" />
+38-->[com.squareup.picasso:picasso:2.71828] C:\Users\adami\.gradle\caches\transforms-2\files-2.1\4bc378476bfec07f9da5500e4fd031d4\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+39    </application>
+40
+41</manifest>

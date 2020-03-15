@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CorierApp</string>
+    <string name="login_et">Логин</string>
+    <string name="password_et">Пароль</string>
+</resources>
